@@ -28,7 +28,6 @@ public class Main {
         System.out.println("The server is running.");
 
         // Handle context with no path, give info about server
-        //server.createContext("/", new InfoHandler());
         server.createContext("/info", new ProjectInfoHandler());
         server.createContext("/romannumeral", new RomanNumeralHandler());
 
