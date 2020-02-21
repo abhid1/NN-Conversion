@@ -34,7 +34,7 @@ public class Converter {
             return "ERROR";
         }
 
-        if (number > 3999 || number == 0)
+        if (number > 3999 || number <= 0)
         {
             return "OUT OF RANGE";
         }
