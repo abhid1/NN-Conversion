@@ -3,9 +3,9 @@ An endpoint that converts integers to their Roman Numerals.
 
 # How to build and run this project
 You simply need to run Main.java to run the server.
-Then you can go to your preferred browser (I tested with Google Chrome) and localhost:8080/info to get more info
+Then you can go to your preferred browser (I tested with Google Chrome) and type ```localhost:8080/info``` to get more info
 about the project.
-If you'd like to convert an integer to a Roman Numeral immediately, simply type localhost:8080/romannumeral?query=INTEGER (from 1-3999).
+If you'd like to convert an integer to a Roman Numeral immediately, simply type ```localhost:8080/romannumeral?query=INTEGER (from 1-3999)```.
 
 # Engineering and Testing Methodology
 The design of this program was rather simple. I referenced https://stackoverflow.com/questions/3732109/simple-http-server-in-java-using-only-java-se-api
